@@ -1,0 +1,54 @@
+<div id="divInboxTile" ng-app="InboxTile" ng-controller="QueueDetails" class="colpsblPnlWrap" ng-cloak>
+        <telerik:RadTabStrip ID="rtsInbox" runat="server" MultiPageID="rmpInbox" OnClientTabSelecting="onTabSelecting" BorderWidth="0" Width="99%">
+            <Tabs>
+                <telerik:RadTab runat="server" meta:resourcekey="rtMyDashboard" PageViewID="rpvMyDashboard">
+                </telerik:RadTab>
+                <telerik:RadTab runat="server" meta:resourcekey="rtReports" PageViewID="rpvReports">
+                </telerik:RadTab>
+                <telerik:RadTab runat="server" meta:resourcekey="rtCodeLR" PageViewID="rpvCodeLR">
+                </telerik:RadTab>
+                <telerik:RadTab runat="server" meta:resourcekey="rtMyView" PageViewID="rpvMyView" Selected="true">
+                </telerik:RadTab>
+                <telerik:RadTab runat="server" meta:resourcekey="rtMyView" PageViewID="rpvMyView" Selected="true">
+                </telerik:RadTab>
+                
+                
+  
+  
+  <data name="rtReports.Text" xml:space="preserve">
+    <value>Reports2</value>
+    <comment>Reports2323</comment>
+  </data>
+  
+  
+  home.aspx.resx
+  
+  
+
+InboxAngular.js
+
+                
+                
+                
+                <%--<Columns>
+                    <asp:BoundField DataField="Request Type" HeaderText="Request Type" SortExpression="Request Type"></asp:BoundField>
+                    <asp:BoundField DataField="Stock Global" HeaderText="Stock Global" SortExpression="Stock Global"></asp:BoundField>
+                    <asp:BoundField DataField="Stock Global New" HeaderText="Stock Global New" SortExpression="Stock Global New"></asp:BoundField>
+                    <asp:BoundField DataField="New Yesterday" HeaderText="New Yesterday" SortExpression="New Yesterday"></asp:BoundField>
+                    <asp:BoundField DataField="Closed Yesterday" HeaderText="Closed Yesterday" SortExpression="Closed Yesterday"></asp:BoundField>
+                    <asp:BoundField DataField="Discard and Rejected Yesterday" HeaderText="Discard and Rejected Yesterday" SortExpression="Discard and Rejected Yesterday"></asp:BoundField>
+                    <asp:BoundField DataField="New Today" HeaderText="New Today" SortExpression="New Today"></asp:BoundField>
+                    <asp:BoundField DataField="Closed Today" HeaderText="Closed Today" SortExpression="Closed Today"></asp:BoundField>
+                    <asp:BoundField DataField="Discard and Rejected Today" HeaderText="Discard and Rejected Today" SortExpression="Discard and Rejected Today"></asp:BoundField>
+
+                </Columns>--%>
+                
+                
+ <Columns>
+                    
+                    <asp:BoundField DataField="Agent" HeaderText="Agent" SortExpression="Agent"></asp:BoundField>
+                    <asp:BoundField DataField="Closed Yesterday" HeaderText="Closed Yesterday" SortExpression="Closed Yesterday"></asp:BoundField>
+                    <asp:BoundField DataField="Discard and Rejected Yesterday" HeaderText="Discard and Rejected Yesterday" SortExpression="Discard and Rejected Yesterday"></asp:BoundField>
+                    <asp:BoundField DataField="Touched Yesterday" HeaderText="Touched Yesterday" SortExpression="Touched Yesterday"></asp:BoundField>
+                    
+                </Columns>                
